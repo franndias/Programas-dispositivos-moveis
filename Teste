@@ -1,0 +1,10 @@
+fun main() {
+    
+   val pipoca = 5  // Existem 5 pipocas 
+   val hotdog = 6  // Esixtem 7 cachorros - quentes 
+   var clientes = 10 // Existem 10
+   
+    // Mudou: alguns clientes desistiram da fila 
+     
+    clientes = 8
+    println (clientes)

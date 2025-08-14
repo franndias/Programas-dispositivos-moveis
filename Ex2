@@ -1,0 +1,8 @@
+// Código completo imprimindo o nome e calculando a idade da Maria na saída padrão
+fun main(){
+    
+    val nome = "Maria"
+    val nasceu = 2005
+    println("$nome tem ${2025-nasceu} anos ") 
+    
+}

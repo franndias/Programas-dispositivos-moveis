@@ -1,0 +1,13 @@
+fun main(){
+    
+    var clientes = 10
+    // E se dois clientes deixarem a fila?
+    clientes = clientes - 2
+    println("Com a saída : $clientes clientes" )
+    // Agora chegaram mais. Quantos clientes temos na fila? 
+    clientes = clientes + 3 
+    println("Com a chegada de 3: $clientes clientes")
+    
+    
+    
+}

@@ -1,0 +1,11 @@
+
+fun main() {
+  // Crianodo uma lista explícita  
+    val frutas = listOf("Maçã", "Banana", "Laranaja", "Manga" )
+    
+    for (i in 0 until frutas.size){
+        
+        println("Frutas #$: ${frutas[i]}")
+    }
+
+}

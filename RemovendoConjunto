@@ -1,0 +1,12 @@
+  // removendo conjunto 
+
+fun main() {
+   //Conjunto mutavél com declaração de tipos explícita 
+    val frutas : MutableSet<String> = mutableSetOf("manga", "laranja", "tangerina", "manga", "uva", "uva")
+    
+    // adiconando e contanto a quantidade de itens 
+    frutas.remove("uva")
+    println(frutas)
+    println("Este conjunto tem ${frutas.count()} items")
+    
+}

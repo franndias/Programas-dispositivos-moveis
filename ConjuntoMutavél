@@ -1,0 +1,10 @@
+
+fun main() {
+    // Conjunto mutavél com declaração de tipos explícita 
+    val frutas: MutableSet<String> = mutableSetOf("manga", "laranja", "tangerina", "manga", "uva", "uva")
+    println(frutas)
+    
+    // Adiconando e contando a quantidade de itens 
+    frutas.add("acerola")
+    println ("Este cosnjunto tem ${frutas.count()} items")
+}

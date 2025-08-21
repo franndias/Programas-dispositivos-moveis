@@ -1,0 +1,17 @@
+
+fun main() {
+
+    val d: Boolean
+    val soma: Int = 2 + 3 // = é sinal de atribuição 
+    
+    if (soma == 5){      // == é sinal da comparação 
+        
+       d = true 
+    } else{
+        
+        d= false 
+    }
+    
+    println(d)
+    // a resposta certa é true 
+}

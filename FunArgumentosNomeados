@@ -1,0 +1,12 @@
+fun imprimeMensagemComAutor (mensagem: String, autor: String){
+    println ("[$autor] $mensagem")
+    
+}
+
+fun main(){
+    
+    // USa arguemntos nomeados, trocando a ordem de chamada 
+    
+     imprimeMensagemComAutor(autor = "Marcos", mensagem = "Bom trabalho" ) 
+     //[Marcos] Bom trabalho!
+}

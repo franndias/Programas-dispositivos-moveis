@@ -1,0 +1,14 @@
+fun main() {
+    val statusLuzTransito = "vermelho"  // Poderia ser "Verde", "Amarelo", or "Vermelho"
+    val acaoTransito = when (statusLuzTransito){
+        "Verde" -> "siga"
+       "Amarelo" -> "atenção"
+       "Vermelho" -> "Pare"
+        
+        else -> "Mal funcionamento"
+       }
+       println(acaoTransito)
+     // Nesse caso é pare
+
+
+     }
